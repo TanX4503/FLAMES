@@ -1,15 +1,13 @@
 '''
-RUN THIS PYTHON FILE TO USE THIS PROGRAMME
+RUN THIS PYTHON FILE IN ANY INTERPRETER TO USE THIS BOT
 Enter 2 Names in the console as directed and get your FLAMES Result
 '''
 
-# Functions that I can thank GeeksforGeeks for
-# List intersection
-def intersection(lst1, lst2):
-    lst3 = [value for value in lst1 if value in lst2]
-    return lst3
-
-# Functions that I made myself
+# List Intersection (Credits for this function: GeeksforGeeks)
+def intersection(list1,list2):
+    list3=[value for value in list1 if value in list2]
+    return list3
+  
 # Splitting a String into a List
 def split(name):
     name=name.lower()

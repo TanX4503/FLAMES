@@ -27,9 +27,11 @@ def split(name):
         i+=1
     return list
 
+# Putting a Heading
+print("Flames BOT\n")
+
 try:
     # Taking 2 names as input from the user
-    print()
     name1=str(input("Enter First Name:  "))
     name2=str(input("Enter Second Name:  "))
 
@@ -55,7 +57,7 @@ except:
 print()
 
 print("The FLAMES result is...", end=" ", flush="True")
-time.sleep(3)
+time.sleep(2.5)
 
 if flame==0:
     print("Friendship")

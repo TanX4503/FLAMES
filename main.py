@@ -80,6 +80,7 @@ else:
 
 print()
 time.sleep(2)
+input("Press Enter to Quit...")
 
 '''
 Coded by

@@ -3,6 +3,13 @@ RUN THIS PYTHON FILE IN ANY INTERPRETER TO USE THIS BOT
 Enter 2 Names in the console as directed and get your FLAMES Result
 '''
 
+# Importing required libraries
+import sys
+import time
+
+# Setting this file to only work on Windows, MacOS or Linux
+assert('win32' or 'linux' or 'linux2' or 'darwin' in sys.platform), "Unfortunately, your device is not supported by this code, yet. Contact the creator of this programme for furthur help"
+
 # List Intersection (Credits for this function: GeeksforGeeks)
 def intersection(list1,list2):
     list3=[value for value in list1 if value in list2]
@@ -22,8 +29,9 @@ def split(name):
 
 try:
     # Taking 2 names as input from the user
-    name1=str(input("Enter First Name:"))
-    name2=str(input("Enter Second Name:"))
+    print()
+    name1=str(input("Enter First Name:  "))
+    name2=str(input("Enter Second Name:  "))
 
     # Splitting these names into 2 lists and intersecting them
     list1=split(name1)
@@ -46,28 +54,32 @@ except:
 # Getting the output as required
 print()
 
+print("The FLAMES result is...", end=" ", flush="True")
+time.sleep(3)
+
 if flame==0:
-    print("The FLAMES result is\nFriendship")
+    print("Friendship")
 
 elif flame==1:
-    print("The FLAMES result is\nLove")
+    print("Love")
 
 elif flame==2:
-    print("The FLAMES result is\nAffection")
+    print("Affection")
 
 elif flame==3:
-    print("The FLAMES result is\nMarriage")
+    print("Marriage")
 
 elif flame==4:
-    print("The FLAMES result is\nEnemy")
+    print("Enemy")
 
 elif flame==5:
-    print("The FLAMES result is\nSibling")
+    print("Sibling")
 
 else:
     print("\n\nAn unidentified error was encountered. Kindly restart the file or debug\n")
 
 print()
+time.sleep(2)
 
 '''
 Coded by

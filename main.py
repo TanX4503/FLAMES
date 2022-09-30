@@ -61,22 +61,16 @@ time.sleep(2.5)
 
 if flame==0:
     print("Friendship")
-
 elif flame==1:
     print("Love")
-
 elif flame==2:
     print("Affection")
-
 elif flame==3:
     print("Marriage")
-
 elif flame==4:
     print("Enemy")
-
 elif flame==5:
     print("Sibling")
-
 else:
     print("\n\nAn unidentified error was encountered. Kindly restart the file or debug\n")
 

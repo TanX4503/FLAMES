@@ -7,7 +7,7 @@ Enter 2 Names in the console as directed and get your FLAMES Result
 import sys
 import time
 
-# Setting this file to only work on Windows, MacOS or Linux
+# Setting this file to only work on Windows, MacOS or Linux (cuz why not)
 assert('win32' or 'linux' or 'linux2' or 'darwin' in sys.platform), "Unfortunately, your device is not supported by this code, yet. Contact the creator of this programme for furthur help"
 
 # List Intersection (Credits for this function: GeeksforGeeks)
